@@ -222,7 +222,7 @@ This tool is a diagnostic aid, not a security guarantee or a penetration test.
   patch without bumping the version, so a patched host can read `VULNERABLE`.
   Check `apt changelog` / `rpm -q --changelog` before acting.
 * **Authorized use only.** Scanning systems without explicit written permission
-  may be illegal (CFAA, UK CMA 1990, 《刑法》第 285 条). A single `HEAD` request
+  may be illegal (CFAA, UK CMA 1990). A single `HEAD` request
   is still a request and still appears in the target's logs.
 * **No warranty.** Provided "AS IS" under Apache-2.0 sections 7 and 8.
 
