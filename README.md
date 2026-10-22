@@ -13,14 +13,13 @@ This tool helps you answer one question quickly: **is this host exposed?**
 
 ## Screenshots and descriptions
 Vulnerability exists：[VULNERABLE] 
-<img width="817" height="442" alt="image" src="https://github.com/user-attachments/assets/7689d381-10eb-4b2b-8ae4-f2c86ff89894" />
+<img width="879" height="439" alt="image" src="https://github.com/user-attachments/assets/5fe83f25-fd75-448c-87bf-f6c949100ac1" />
 
 Vulnerability Fix：[PASS] 
-<img width="1004" height="438" alt="image" src="https://github.com/user-attachments/assets/9e81efdc-2b38-47ba-a03c-524cf4c9c67e" />
+<img width="984" height="439" alt="image" src="https://github.com/user-attachments/assets/379daa10-3b8e-4a5f-a287-ca83af2269f4" />
 
 Insufficient data to prove：[UNKNOWN] 
-<img width="844" height="398" alt="image" src="https://github.com/user-attachments/assets/72ac67c4-f2bb-4387-8962-22ecb63f0f58" />
-
+<img width="834" height="402" alt="image" src="https://github.com/user-attachments/assets/75bcc2b3-eacc-4445-9a4f-8390b3876fef" />
 
 ## What it does
 
