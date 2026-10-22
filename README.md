@@ -11,6 +11,10 @@ vulnerabilities:
 Both are unauthenticated remote code execution issues in the PHP engine itself.
 This tool helps you answer one question quickly: **is this host exposed?**
 
+> **Read [`DISCLAIMER.md`](DISCLAIMER.md) first.** This is a diagnostic aid, not a
+> security guarantee. `UNKNOWN` does not mean safe, distro backports cause false
+> positives, and you must have authorization to probe every target.
+
 ## Screenshots and descriptions
 Vulnerability exists：[VULNERABLE] 
 <img width="879" height="439" alt="image" src="https://github.com/user-attachments/assets/5fe83f25-fd75-448c-87bf-f6c949100ac1" />
@@ -207,6 +211,23 @@ advisories.
 * CVE-2026-109618 — <https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w>
 * CVE-2026-109619 — <https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp>
 * Wiz write-up — <https://www.wiz.io/blog/php2shell-php-rce>
+
+## Disclaimer
+
+This tool is a diagnostic aid, not a security guarantee or a penetration test.
+
+* **`UNKNOWN` does not mean safe.** Remote mode only reports what a server
+  volunteers; a vulnerable host that hides its version is reported `UNKNOWN`.
+* **Distro backports cause false positives.** Debian/Ubuntu/RHEL/Alpine often
+  patch without bumping the version, so a patched host can read `VULNERABLE`.
+  Check `apt changelog` / `rpm -q --changelog` before acting.
+* **Authorized use only.** Scanning systems without explicit written permission
+  may be illegal (CFAA, UK CMA 1990, 《刑法》第 285 条). A single `HEAD` request
+  is still a request and still appears in the target's logs.
+* **No warranty.** Provided "AS IS" under Apache-2.0 sections 7 and 8.
+
+Full text, including report-handling and third-party data caveats:
+[`DISCLAIMER.md`](DISCLAIMER.md).
 
 ## License
 
