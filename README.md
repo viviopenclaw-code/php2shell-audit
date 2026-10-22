@@ -11,6 +11,17 @@ vulnerabilities:
 Both are unauthenticated remote code execution issues in the PHP engine itself.
 This tool helps you answer one question quickly: **is this host exposed?**
 
+## Screenshots and descriptions
+Vulnerability exists：[VULNERABLE] 
+<img width="817" height="442" alt="image" src="https://github.com/user-attachments/assets/7689d381-10eb-4b2b-8ae4-f2c86ff89894" />
+
+Vulnerability Fix：[PASS] 
+<img width="1004" height="438" alt="image" src="https://github.com/user-attachments/assets/9e81efdc-2b38-47ba-a03c-524cf4c9c67e" />
+
+Insufficient data to prove：[UNKNOWN] 
+<img width="844" height="398" alt="image" src="https://github.com/user-attachments/assets/72ac67c4-f2bb-4387-8962-22ecb63f0f58" />
+
+
 ## What it does
 
 * **`--local`** — audits the machine it runs on:
