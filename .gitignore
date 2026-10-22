@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Build output
+build/
+dist/
+*.spec
+
+# Release binaries are published as GitHub Release assets, never committed.
+# See RELEASING.md. Keeping them out of git keeps clones small and the
+# repository history free of 16 MB blobs that can never be removed.
+bin/
+
+# Local reports / target lists (may contain internal hostnames)
+report*.json
+out.json
+targets.txt
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

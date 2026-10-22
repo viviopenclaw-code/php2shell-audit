@@ -1,0 +1,7 @@
+# php2shell-audit - example target list
+# One target per line. Lines starting with # are ignored.
+# Copy to targets.txt (gitignored) and edit.
+
+example.com
+https://shop.example.net
+10.0.0.5:8080
